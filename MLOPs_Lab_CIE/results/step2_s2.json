@@ -1,0 +1,13 @@
+{
+    "search_type": "random",
+    "n_folds": 3,
+    "total_trials": 5,
+    "best_params": {
+        "n_estimators": 100,
+        "max_depth": 3,
+        "learning_rate": 0.05
+    },
+    "best_mae": 14.748802099150884,
+    "best_cv_mae": 8.615357059361314,
+    "parent_run_name": "tuning-breachlab"
+}

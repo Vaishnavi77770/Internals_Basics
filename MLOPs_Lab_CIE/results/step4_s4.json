@@ -1,0 +1,13 @@
+{
+ "health_endpoint": "/health",
+ "predict_endpoint": "/forecast",
+ "port": 8000,
+ "health_response": {"status": "healthy", "model_loaded": true},
+ "test_input": {
+  "attack_surface_count": 42,
+  "patch_age_days": 250,
+  "is_external_facing": 0,
+  "tech_stack_complexity": 2
+ },
+ "prediction": 73.5
+}

@@ -1,0 +1,20 @@
+{
+    "experiment_name": "breachlab-vulnerability-score",
+    "models": [
+        {
+            "name": "LinearRegression",
+            "mae": 5.305441846346854,
+            "rmse": 5.990986908522895,
+            "r2": 0.6743089809779353
+        },
+        {
+            "name": "GradientBoosting",
+            "mae": 14.22756735429029,
+            "rmse": 14.832013165129554,
+            "r2": -0.9962238793342932
+        }
+    ],
+    "best_model": "LinearRegression",
+    "best_metric_name": "mae",
+    "best_metric_value": 5.305441846346854
+}

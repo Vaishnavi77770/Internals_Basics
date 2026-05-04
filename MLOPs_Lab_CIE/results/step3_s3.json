@@ -1,0 +1,12 @@
+{
+ "image_name": "breachlab-predictor",
+ "image_tag": "v1",
+ "base_image": "python:3.11-slim",
+ "test_input": {
+  "attack_surface_count": 42,
+  "patch_age_days": 250,
+  "is_external_facing": 0,
+  "tech_stack_complexity": 2
+ },
+ "prediction": 73.5
+}
